@@ -4,7 +4,7 @@ const descricao = document.querySelector(".descricao");
 const img = document.getElementById('imagem')
 const span = document.getElementById('spanAtualizando')
 
-botaoNegado.addEventListener("mouseover", () => {
+botaoNegado.addEventListener("mouseover, click", () => {
     if (botaoNegado.parentNode !== document.body) {
         document.body.appendChild(botaoNegado);
     }
